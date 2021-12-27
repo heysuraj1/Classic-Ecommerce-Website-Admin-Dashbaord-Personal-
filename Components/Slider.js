@@ -77,7 +77,7 @@ const Slider = () => {
       </li>
 
       <li className="nav-item">
-        <a className="nav-link collapsed" >
+        <a className="nav-link collapsed" target='__blank' href='https://ecomninjademo.vercel.app' >
           <i className="bx bx-window" />
           <span>Go To Web</span>
         </a>
