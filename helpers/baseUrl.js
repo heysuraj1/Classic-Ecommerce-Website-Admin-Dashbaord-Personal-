@@ -2,7 +2,7 @@
 // (  YOU GET IT YAARR )
 
 
-const baseUrl = process.env.NODE_ENV === 'production' ? "dashboardecomninja.vercel.app" : "http://192.168.43.53:3001"
+const baseUrl = process.env.NODE_ENV === 'production' ? "https://dashboardecomninja.vercel.app" : "http://192.168.43.53:3001"
 
 
 export default baseUrl;
