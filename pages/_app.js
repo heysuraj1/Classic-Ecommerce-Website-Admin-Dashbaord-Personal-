@@ -57,17 +57,20 @@ function MyApp({ Component, pageProps }) {
       <Script src="/vendor/php-email-form/validate.js" />
 
       <Script src="/js/main.js" />
+
       
-    
-      {!userR == '"admin"' ?  (
-        <>
-        <Header />
+          <Header />
           <Slider />
           <ToastContainer />
 
           <Component {...pageProps} />
 
           <Footer />
+      
+    
+      {/* {!userR == '"admin"' ?  (
+        <>
+        
          
         </>
       ) : (
@@ -77,7 +80,7 @@ function MyApp({ Component, pageProps }) {
             You Are Not Athenticated For This Page
           </h1>
         </>
-      )}
+      )} */}
     </>
   );
 }
